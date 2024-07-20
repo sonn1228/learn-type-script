@@ -9,3 +9,4 @@ part2:
 4. Interface in Interface
 5. Extend interface
 6. Array
+7. Tuple

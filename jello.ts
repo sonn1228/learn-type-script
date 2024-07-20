@@ -48,3 +48,8 @@ const humnan: B = {
 // 6. Array
 const arr: (number | string | boolean | User)[] = [1, "2"];
 console.log(arr);
+
+// 7. Tuple
+let info: [string, number, boolean];
+info = ["string", 12, true];
+console.log(info);

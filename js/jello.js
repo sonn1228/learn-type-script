@@ -19,3 +19,6 @@ const humnan = {
 };
 const arr = [1, "2"];
 console.log(arr);
+let info;
+info = ["string", 12, true];
+console.log(info);
