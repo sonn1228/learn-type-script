@@ -105,3 +105,5 @@ let a: any = 10;
 a = "string";
 
 // 14. Unknown
+let b: unknown = 10;
+b = "string";

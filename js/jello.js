@@ -58,3 +58,5 @@ switch (currentStatus) {
 }
 let a = 10;
 a = "string";
+let b = 10;
+b = "string";
