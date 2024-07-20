@@ -15,3 +15,5 @@ part2:
 10. Default parameters
 11. Rest parameters
 12. Enum
+13. Any type
+14. Unknown

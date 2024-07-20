@@ -100,3 +100,8 @@ switch (currentStatus) {
   default:
     break;
 }
+// 13. Any type
+let a: any = 10;
+a = "string";
+
+// 14. Unknown

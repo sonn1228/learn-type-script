@@ -56,3 +56,5 @@ switch (currentStatus) {
     default:
         break;
 }
+let a = 10;
+a = "string";
