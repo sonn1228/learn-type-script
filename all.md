@@ -14,3 +14,4 @@ part2:
 9. Function
 10. Default parameters
 11. Rest parameters
+12. Enum

@@ -66,7 +66,7 @@ let C1: C = {
 const sum2 = (a: number, b: number): number => {
   return a + b;
 };
-console.log(sum2(1, 2));
+console.log(`9. Function: ` + sum2(1, 2));
 
 // 10. Default parameters
 
@@ -79,4 +79,24 @@ const sum3 = (a: number = 0, b: number = 0): number => {
 const sum4 = (...restPara: number[]) => {
   return restPara.reduce((sum, item) => sum + item, 0);
 };
-console.log(sum4(1, 2, 3));
+console.log(`11. Rest parameters: ` + sum4(1, 2, 3));
+// 12. Enum
+enum Status {
+  INITIAL = "initial", // ko gán mặc định:  index = 0
+  ACTIVE = "active",
+  INACTIVE = "inactive",
+}
+const currentStatus: string = "initial";
+switch (currentStatus) {
+  case Status.INITIAL:
+    console.log("Init");
+    break;
+  case Status.ACTIVE:
+    console.log("Init");
+    break;
+  case Status.INACTIVE:
+    console.log("Init");
+    break;
+  default:
+    break;
+}

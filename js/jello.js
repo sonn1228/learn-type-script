@@ -28,11 +28,31 @@ let C1 = {
 const sum2 = (a, b) => {
     return a + b;
 };
-console.log(sum2(1, 2));
+console.log(`9. Function: ` + sum2(1, 2));
 const sum3 = (a = 0, b = 0) => {
     return a + b;
 };
 const sum4 = (...restPara) => {
     return restPara.reduce((sum, item) => sum + item, 0);
 };
-console.log(sum4(1, 2, 3));
+console.log(`11. Rest parameters: ` + sum4(1, 2, 3));
+var Status;
+(function (Status) {
+    Status["INITIAL"] = "initial";
+    Status["ACTIVE"] = "active";
+    Status["INACTIVE"] = "inactive";
+})(Status || (Status = {}));
+const currentStatus = "initial";
+switch (currentStatus) {
+    case Status.INITIAL:
+        console.log("Init");
+        break;
+    case Status.ACTIVE:
+        console.log("Init");
+        break;
+    case Status.INACTIVE:
+        console.log("Init");
+        break;
+    default:
+        break;
+}
