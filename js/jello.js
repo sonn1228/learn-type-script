@@ -12,3 +12,8 @@ const userInteface = {
         zalo: "String",
     },
 };
+const humnan = {
+    age: 18,
+    fullName: "String",
+    cccd: "String",
+};

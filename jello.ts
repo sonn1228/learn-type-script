@@ -13,7 +13,7 @@ let user: {
 };
 console.log(user);
 
-// 3.Interface
+// 3.4 Interface - Interface in Interface
 interface Social {
   zalo?: String;
   facebook?: String;
@@ -29,4 +29,19 @@ const userInteface: User = {
   socials: {
     zalo: "String",
   },
+};
+
+// 5. Extend interface
+interface A {
+  fullName: String;
+  cccd: String;
+}
+interface B extends A {
+  age: Number;
+  married?: Boolean;
+}
+const humnan: B = {
+  age: 18,
+  fullName: "String",
+  cccd: "String",
 };
