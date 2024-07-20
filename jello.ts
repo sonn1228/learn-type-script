@@ -73,3 +73,10 @@ console.log(sum2(1, 2));
 const sum3 = (a: number = 0, b: number = 0): number => {
   return a + b;
 };
+
+// 11. Rest parameters
+
+const sum4 = (...restPara: number[]) => {
+  return restPara.reduce((sum, item) => sum + item, 0);
+};
+console.log(sum4(1, 2, 3));

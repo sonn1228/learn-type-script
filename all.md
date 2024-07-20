@@ -13,3 +13,4 @@ part2:
 8. readonly: Chỉ được phép gán cho lúc khởi tạo
 9. Function
 10. Default parameters
+11. Rest parameters
