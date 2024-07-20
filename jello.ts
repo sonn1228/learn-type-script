@@ -14,12 +14,19 @@ let user: {
 console.log(user);
 
 // 3.Interface
+interface Social {
+  zalo?: String;
+  facebook?: String;
+}
 interface User {
   fullName: String;
-  age: Number;
+  age?: Number; // optional
+  socials?: Social;
 }
 
 const userInteface: User = {
   fullName: "nguyen Van A",
-  age: 18,
+  socials: {
+    zalo: "String",
+  },
 };

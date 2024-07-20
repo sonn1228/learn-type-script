@@ -8,5 +8,7 @@ let user = {
 console.log(user);
 const userInteface = {
     fullName: "nguyen Van A",
-    age: 18,
+    socials: {
+        zalo: "String",
+    },
 };
