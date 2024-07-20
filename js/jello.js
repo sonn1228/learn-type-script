@@ -6,3 +6,7 @@ let user = {
     age: 18,
 };
 console.log(user);
+const userInteface = {
+    fullName: "nguyen Van A",
+    age: 18,
+};

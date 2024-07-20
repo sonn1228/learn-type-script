@@ -12,3 +12,14 @@ let user: {
   age: 18,
 };
 console.log(user);
+
+// 3.Interface
+interface User {
+  fullName: String;
+  age: Number;
+}
+
+const userInteface: User = {
+  fullName: "nguyen Van A",
+  age: 18,
+};
