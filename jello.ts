@@ -53,3 +53,11 @@ console.log(arr);
 let info: [string, number, boolean];
 info = ["string", 12, true];
 console.log(info);
+
+// 8. readonly
+interface C {
+  readonly demo: string;
+}
+let C1: C = {
+  demo: "string",
+};

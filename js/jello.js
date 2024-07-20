@@ -22,3 +22,6 @@ console.log(arr);
 let info;
 info = ["string", 12, true];
 console.log(info);
+let C1 = {
+    demo: "string",
+};
