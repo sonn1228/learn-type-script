@@ -11,3 +11,4 @@ part2:
 6. Array
 7. Tuple
 8. readonly: Chỉ được phép gán cho lúc khởi tạo
+9. Function
