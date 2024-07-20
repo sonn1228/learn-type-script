@@ -8,4 +8,4 @@ part2:
 3. Interface
 4. Interface in Interface
 5. Extend interface
-6.
+6. Array

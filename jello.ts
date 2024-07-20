@@ -1,12 +1,12 @@
 // 1. ràng buộc kiểu dữ liệu
-let number: Number = 3;
-let boolean: Boolean = true;
-let string: String = "Nguyen Van A";
+let number: number = 3;
+let boolean: boolean = true;
+let string: string = "Nguyen Van A";
 // 2. object
 
 let user: {
-  fullName: String;
-  age: Number;
+  fullName: string;
+  age: number;
 } = {
   fullName: "Nguyen Van A",
   age: 18,
@@ -15,33 +15,36 @@ console.log(user);
 
 // 3.4 Interface - Interface in Interface
 interface Social {
-  zalo?: String;
-  facebook?: String;
+  zalo?: string;
+  facebook?: string;
 }
 interface User {
-  fullName: String;
-  age?: Number; // optional
+  fullName: string;
+  age?: number; // optional
   socials?: Social;
 }
 
 const userInteface: User = {
   fullName: "nguyen Van A",
   socials: {
-    zalo: "String",
+    zalo: "string",
   },
 };
 
 // 5. Extend interface
 interface A {
-  fullName: String;
-  cccd: String;
+  fullName: string;
+  cccd: string;
 }
 interface B extends A {
-  age: Number;
-  married?: Boolean;
+  age: number;
+  married?: boolean;
 }
 const humnan: B = {
   age: 18,
-  fullName: "String",
-  cccd: "String",
+  fullName: "string",
+  cccd: "string",
 };
+// 6. Array
+const arr: (number | string | boolean | User)[] = [1, "2"];
+console.log(arr);
