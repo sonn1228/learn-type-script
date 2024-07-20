@@ -67,3 +67,9 @@ const sum2 = (a: number, b: number): number => {
   return a + b;
 };
 console.log(sum2(1, 2));
+
+// 10. Default parameters
+
+const sum3 = (a: number = 0, b: number = 0): number => {
+  return a + b;
+};

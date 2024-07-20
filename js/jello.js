@@ -29,3 +29,6 @@ const sum2 = (a, b) => {
     return a + b;
 };
 console.log(sum2(1, 2));
+const sum3 = (a = 0, b = 0) => {
+    return a + b;
+};
