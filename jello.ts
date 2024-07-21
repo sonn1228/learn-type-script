@@ -187,3 +187,10 @@ const ff3: Omit<FF, "zalo"> = {
 const ff4: Pick<FF, "zalo"> = {
   zalo: "string",
 };
+// 22.3 Readonly <type>: all attribute -> reaconly
+
+const ff5: Readonly<FF> = {
+  email: "string",
+  phone: "string",
+  zalo: "string",
+};
