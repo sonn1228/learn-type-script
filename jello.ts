@@ -119,3 +119,9 @@ function reverseArr<T>(arr: T[]): T[] {
 }
 console.log(reverseArr([1, 2, 3]));
 console.log(reverseArr(["1", "2", "3"]));
+
+// 18. Union Type: Kết hợp nhiều kiểu dữ liệu thành 1 kiểu dl mới
+interface Product {
+  rating: number | string;
+  status: "initial" | "active" | "inactive";
+}
