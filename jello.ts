@@ -183,3 +183,7 @@ const ff2: Required<FF> = {
 const ff3: Omit<FF, "zalo"> = {
   email: "string",
 };
+// 22.4 Pick<type, keys>: Loại bỏ tất cả ngoại trừ key muốn xóa
+const ff4: Pick<FF, "zalo"> = {
+  zalo: "string",
+};
