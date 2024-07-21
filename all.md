@@ -22,3 +22,7 @@ part2:
 17. Generics: ~ overloading
 18. Union Type
 19. Type alias: Cho phép tạo tên tùy chỉnh để đặt cho các kiểu dữ liệu
+20. Intersection type: Hợp 2 interface thành 1
+21. Any type
+22. Any type
+23. Any type

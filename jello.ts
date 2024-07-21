@@ -131,3 +131,19 @@ const product: Product = {
   status: "initial",
 };
 // 19. Type alias
+// 20. Intersection type
+interface D {
+  readonly id: string;
+  age: number;
+}
+interface E {
+  hotline: string;
+  email?: string;
+}
+
+type DE = D & E;
+const userDE: DE = {
+  id: "string",
+  age: 10,
+  hotline: "string",
+};

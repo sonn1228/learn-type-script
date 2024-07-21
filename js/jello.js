@@ -72,3 +72,8 @@ const product = {
     rating: 10,
     status: "initial",
 };
+const userDE = {
+    id: "string",
+    age: 10,
+    hotline: "string",
+};
