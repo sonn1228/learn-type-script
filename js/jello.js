@@ -89,4 +89,8 @@ const ff1 = {
 const ff2 = {
     email: "string",
     phone: "string",
+    zalo: "string",
+};
+const ff3 = {
+    email: "string",
 };

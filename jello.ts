@@ -168,6 +168,7 @@ const f1: F = {
 interface FF {
   email: string;
   phone?: string;
+  zalo: string;
 }
 const ff1: Partial<FF> = {
   email: "string",
@@ -176,5 +177,9 @@ const ff1: Partial<FF> = {
 const ff2: Required<FF> = {
   email: "string",
   phone: "string",
+  zalo: "string",
 };
-// 22.3
+// 22.3 Omit<type, keys>: Loại bỏ Key
+const ff3: Omit<FF, "zalo"> = {
+  email: "string",
+};
