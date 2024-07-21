@@ -68,3 +68,7 @@ function reverseArr(arr) {
 }
 console.log(reverseArr([1, 2, 3]));
 console.log(reverseArr(["1", "2", "3"]));
+const product = {
+    rating: 10,
+    status: "initial",
+};

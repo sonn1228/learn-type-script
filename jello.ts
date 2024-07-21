@@ -125,3 +125,7 @@ interface Product {
   rating: number | string;
   status: "initial" | "active" | "inactive";
 }
+const product: Product = {
+  rating: 10,
+  status: "initial",
+};
