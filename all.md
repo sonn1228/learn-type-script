@@ -24,9 +24,7 @@ part2:
 19. Type alias: Cho phép tạo tên tùy chỉnh để đặt cho các kiểu dữ liệu
 20. Intersection type: Hợp 2 interface thành 1
 21. Declaration merging: hợp 2 interface trùng tên thành 1
-22. Partial<Type>
-
-23. Any type
-24. Any type
-
-25. Any type
+22. Utility<Type>: Giống như tạo ra 1 interface mới
+    22.1 Partial<Type> :all attribute -> optional
+    22.2 Required<Type> :all attribute -> required
+    22.3 Omit<Type> :all attribute -> optional

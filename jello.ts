@@ -163,12 +163,18 @@ const f1: F = {
   name: "string",
 };
 
-// 22. Utility<Type>
-// 22.1 Partial<Type> : Thay đổi all attribute của interface thành optional
+// 22. Utility<Type>: Giống như tạo ra 1 interface mới
+// 22.1 Partial<Type> :all attribute -> optional
 interface FF {
   email: string;
-  phone: string;
+  phone?: string;
 }
 const ff1: Partial<FF> = {
   email: "string",
 };
+// 22.2: Required: all attribute -> required
+const ff2: Required<FF> = {
+  email: "string",
+  phone: "string",
+};
+// 22.3

@@ -86,3 +86,7 @@ const f1 = {
 const ff1 = {
     email: "string",
 };
+const ff2 = {
+    email: "string",
+    phone: "string",
+};
