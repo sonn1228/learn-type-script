@@ -19,3 +19,6 @@ part2:
 14. Unknown: Kiểm tra kiểu dữ liệu before used
 15. Any type
 16. Void Type
+17. Generics: ~ overloading
+18. Union Type
+19. Void Type

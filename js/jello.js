@@ -63,3 +63,8 @@ b = "string";
 const hello = (fullName) => {
     console.log(`Hello ${fullName}`);
 };
+function reverseArr(arr) {
+    return arr.reverse();
+}
+console.log(reverseArr([1, 2, 3]));
+console.log(reverseArr(["1", "2", "3"]));

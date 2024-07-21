@@ -111,3 +111,11 @@ b = "string";
 const hello = (fullName): void => {
   console.log(`Hello ${fullName}`);
 };
+
+// 17. Generics: ~ overloading
+
+function reverseArr<T>(arr: T[]): T[] {
+  return arr.reverse();
+}
+console.log(reverseArr([1, 2, 3]));
+console.log(reverseArr(["1", "2", "3"]));
