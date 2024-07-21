@@ -16,4 +16,6 @@ part2:
 11. Rest parameters
 12. Enum
 13. Any type
-14. Unknown
+14. Unknown: Kiểm tra kiểu dữ liệu before used
+15. Any type
+16. Void Type

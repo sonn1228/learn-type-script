@@ -103,7 +103,11 @@ switch (currentStatus) {
 // 13. Any type
 let a: any = 10;
 a = "string";
-
 // 14. Unknown
 let b: unknown = 10;
 b = "string";
+
+// 16. Void Type
+const hello = (fullName): void => {
+  console.log(`Hello ${fullName}`);
+};
