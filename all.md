@@ -21,4 +21,4 @@ part2:
 16. Void Type
 17. Generics: ~ overloading
 18. Union Type
-19. Void Type
+19. Type alias: Cho phép tạo tên tùy chỉnh để đặt cho các kiểu dữ liệu

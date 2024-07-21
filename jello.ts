@@ -121,11 +121,13 @@ console.log(reverseArr([1, 2, 3]));
 console.log(reverseArr(["1", "2", "3"]));
 
 // 18. Union Type: Kết hợp nhiều kiểu dữ liệu thành 1 kiểu dl mới
+type statusType = "initial" | "active" | "inactive";
 interface Product {
   rating: number | string;
-  status: "initial" | "active" | "inactive";
+  status: statusType;
 }
 const product: Product = {
   rating: 10,
   status: "initial",
 };
+// 19. Type alias
