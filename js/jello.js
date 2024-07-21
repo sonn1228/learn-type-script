@@ -77,3 +77,12 @@ const userDE = {
     age: 10,
     hotline: "string",
 };
+const f1 = {
+    email: "string",
+    phone: "string",
+    id: "string",
+    name: "string",
+};
+const ff1 = {
+    email: "string",
+};

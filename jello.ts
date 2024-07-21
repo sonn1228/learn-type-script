@@ -147,3 +147,28 @@ const userDE: DE = {
   age: 10,
   hotline: "string",
 };
+// 21. Declaration merging
+interface F {
+  id: string;
+  name: string;
+}
+interface F {
+  email: string;
+  phone: string;
+}
+const f1: F = {
+  email: "string",
+  phone: "string",
+  id: "string",
+  name: "string",
+};
+
+// 22. Utility<Type>
+// 22.1 Partial<Type> : Thay đổi all attribute của interface thành optional
+interface FF {
+  email: string;
+  phone: string;
+}
+const ff1: Partial<FF> = {
+  email: "string",
+};

@@ -23,6 +23,10 @@ part2:
 18. Union Type
 19. Type alias: Cho phép tạo tên tùy chỉnh để đặt cho các kiểu dữ liệu
 20. Intersection type: Hợp 2 interface thành 1
-21. Any type
-22. Any type
+21. Declaration merging: hợp 2 interface trùng tên thành 1
+22. Partial<Type>
+
 23. Any type
+24. Any type
+
+25. Any type
