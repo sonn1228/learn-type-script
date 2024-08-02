@@ -1,18 +1,3 @@
-// 1. ràng buộc kiểu dữ liệu
-let number: number = 3;
-let boolean: boolean = true;
-let string: string = "Nguyen Van A";
-// 2. object
-
-let user: {
-  fullName: string;
-  age: number;
-} = {
-  fullName: "Nguyen Van A",
-  age: 18,
-};
-console.log(user);
-
 // 3.4 Interface - Interface in Interface
 interface Social {
   zalo?: string;
